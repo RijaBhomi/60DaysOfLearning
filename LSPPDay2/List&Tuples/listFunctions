@@ -1,0 +1,18 @@
+lucky_numbers= [4,8,15, 16, 23,42]
+friends= ["Bibha", "Shreeja", "Shrutika", "Rachu", "Aakriti"]
+friends.extend(lucky_numbers)  # adding two list together
+friends.append("Mike")  # adding a single element to the end of the list
+friends.insert(3, "Riya")  # inserting an element at a specific index
+friends.remove("Riya") # removing an element by value
+print(friends)
+
+friends.pop()  # removing the last element\
+print(friends)
+
+print(friends.index("Rachu"))
+
+lucky_numbers.sort()  # sorting the lucky numbers list
+print(lucky_numbers)
+
+friends2=friends.copy() # copying the friends list
+print(friends2)

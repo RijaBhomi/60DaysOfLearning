@@ -1,0 +1,16 @@
+# Write a program to input marks of 6 students and store them in a list and sort them.
+marks= []
+mark1= int(input("Enter the marks of student 1: "))
+marks.append(mark1)
+mark2= int(input("Enter the marks of student 2: "))
+marks.append(mark2)
+mark3= int(input("Enter the marks of student 3: "))
+marks.append(mark3)
+mark4= int(input("Enter the marks of student 4: "))
+marks.append(mark4)
+marks5= int(input("Enter the marks of student 5: "))
+marks.append(marks5)
+marks6= int(input("Enter the marks of student 6: "))
+marks.append(marks6)
+marks.sort()
+print("The marks of the students are: ", marks)
